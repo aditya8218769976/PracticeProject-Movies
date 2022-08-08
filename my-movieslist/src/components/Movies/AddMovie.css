@@ -1,0 +1,32 @@
+.title-bg-style {
+  margin: 1rem;
+}
+
+.title-bg-style label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+  text-align: left;
+}
+
+.title-bg-style input,
+.title-bg-style textarea {
+  display: block;
+  width: 100%;
+  font: inherit;
+  padding: 0.2rem;
+  border-radius: 12px;
+  border: 1px solid #ccc;
+}
+
+.title-bg-style input:focus,
+.title-bg-style textarea:focus {
+  outline: none;
+  border-color: #230052;
+}
+
+.btn-style {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
